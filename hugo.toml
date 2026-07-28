@@ -41,18 +41,16 @@ enableEmoji = true
     Title = "Hey, I'm Dan \U0001F44B"
     Content = "This is where I dump inner thoughts about the games I'm playing — screenshots, feelings, in-character rambling, whatever. Mostly gaming, occasionally other stuff."
 
-  # Fill these in after you enable Discussions on the repo and register
-  # the site at https://giscus.app — see the setup checklist for details.
   [params.giscus]
     repo = 'pandincus/pandincus.github.io'
-    repoId = ''
-    category = 'General'
-    categoryId = ''
+    repoId = 'R_kgDOTmhqhA'
+    category = 'Announcements'
+    categoryId = 'DIC_kwDOTmhqM4DCMGw'
     mapping = 'pathname'
     strict = '0'
     reactionsEnabled = '1'
     emitMetadata = '0'
-    inputPosition = 'bottom'
+    inputPosition = 'top'
     lightTheme = 'light'
     darkTheme = 'dark'
     lang = 'en'
