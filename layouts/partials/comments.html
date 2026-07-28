@@ -1,0 +1,30 @@
+<script src="https://giscus.app/client.js"
+    data-repo="{{ .Site.Params.giscus.repo }}"
+    data-repo-id="{{ .Site.Params.giscus.repoId }}"
+    data-category="{{ .Site.Params.giscus.category }}"
+    data-category-id="{{ .Site.Params.giscus.categoryId }}"
+    data-mapping="{{ .Site.Params.giscus.mapping }}"
+    data-strict="{{ .Site.Params.giscus.strict }}"
+    data-reactions-enabled="{{ .Site.Params.giscus.reactionsEnabled }}"
+    data-emit-metadata="{{ .Site.Params.giscus.emitMetadata }}"
+    data-input-position="{{ .Site.Params.giscus.inputPosition }}"
+    data-theme="{{ if eq .Site.Params.defaultTheme "dark" }}{{ .Site.Params.giscus.darkTheme }}{{ else }}{{ .Site.Params.giscus.lightTheme }}{{ end }}"
+    data-lang="{{ .Site.Params.giscus.lang }}"
+    crossorigin="anonymous"
+    async>
+</script>
+
+<script>
+  // Keep giscus in sync with PaperMod's light/dark toggle.
+  const giscusThemeSwitch = () => {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    const theme = document.body.classList.contains('dark')
+      ? '{{ .Site.Params.giscus.darkTheme }}'
+      : '{{ .Site.Params.giscus.lightTheme }}';
+    iframe.contentWindow.postMessage({ giscus: { setConfig: { theme } } }, 'https://giscus.app');
+  };
+  document.querySelectorAll('#theme-toggle, #mobile-theme-toggle').forEach((el) => {
+    el.addEventListener('click', () => setTimeout(giscusThemeSwitch, 100));
+  });
+</script>

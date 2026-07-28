@@ -1,0 +1,79 @@
+baseURL = 'https://pandincus.github.io/'
+languageCode = 'en-us'
+title = 'My Gaming Journal'
+theme = 'PaperMod'
+
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+  disableXML = true
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[params]
+  env = 'production'
+  title = 'My Gaming Journal'
+  description = 'Screenshots, feelings, and other nonsense from inside various video games.'
+  keywords = ['blog', 'gaming', 'journal']
+  author = 'Dan'
+  DateFormat = 'January 2, 2006'
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowToc = true
+  TocOpen = false
+  comments = true
+  hidemeta = false
+
+  [params.homeInfoParams]
+    Title = "Hey, I'm Dan \U0001F44B"
+    Content = "This is where I dump inner thoughts about the games I'm playing — screenshots, feelings, in-character rambling, whatever. Mostly gaming, occasionally other stuff."
+
+  # Fill these in after you enable Discussions on the repo and register
+  # the site at https://giscus.app — see the setup checklist for details.
+  [params.giscus]
+    repo = 'pandincus/pandincus.github.io'
+    repoId = ''
+    category = 'General'
+    categoryId = ''
+    mapping = 'pathname'
+    strict = '0'
+    reactionsEnabled = '1'
+    emitMetadata = '0'
+    inputPosition = 'bottom'
+    lightTheme = 'light'
+    darkTheme = 'dark'
+    lang = 'en'
+
+[[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/pandincus'
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'archive'
+    name = 'Archive'
+    url = '/archives/'
+    weight = 30
