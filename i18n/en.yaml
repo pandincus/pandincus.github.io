@@ -1,0 +1,7 @@
+# Overrides for PaperMod's built-in strings. Hugo merges these over the theme's
+# i18n/en.yaml key by key, so only the ones listed here change.
+
+# PaperMod labels the newer post "Prev" and the older post "Next", which reads
+# backwards. Renaming them sidesteps the ambiguity entirely.
+prev_page: "Newer"
+next_page: "Older"

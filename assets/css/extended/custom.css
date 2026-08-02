@@ -1,0 +1,34 @@
+/* Overrides for PaperMod's defaults. Hugo merges this on top of the theme's CSS,
+   so nothing in themes/PaperMod/ needs editing. */
+
+:root {
+    /* Theme default is 720px. Wider gives screenshots more room on desktop.
+       Doesn't affect mobile — this is a max-width, so narrow screens still fit. */
+    --main-width: 900px;
+}
+
+/* PaperMod sets cover images to width:100%, which upscales small screenshots
+   until they look soft. Show them at natural size instead, capped to the column. */
+.entry-cover img {
+    width: auto;
+    max-width: 100%;
+    align-self: center;
+}
+
+/* Cap tall code blocks (long build dumps) and let them scroll instead of
+   stretching the page. Shorter blocks are unaffected. */
+.md-content pre code {
+    max-height: 30rem;
+    overflow-y: auto;
+}
+
+/* The theme's built-in {{< collapse >}} shortcode ships with no styling,
+   so give the summary line a clickable affordance. */
+.md-content details > summary {
+    cursor: pointer;
+    color: var(--secondary);
+}
+
+.md-content details[open] > summary {
+    margin-bottom: var(--content-gap);
+}
