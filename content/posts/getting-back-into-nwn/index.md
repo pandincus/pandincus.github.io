@@ -4,6 +4,7 @@ date: 2026-08-01
 draft: false
 tags: ["NWN", "swordflight", "character-creation", "crpg", "builds"]
 cover:
+    relative: true
     image: "the-shifting-sands-inn.jpg"
     alt: "Berin Hull, at a glance"
     caption: "Berin Hull, freshly rolled and exported from PGCC"
