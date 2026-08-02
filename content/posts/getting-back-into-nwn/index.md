@@ -32,7 +32,7 @@ Second, it is a game that I've come back to multiple times in my life. In the ea
 
 But I haven't really explained what it is, and why. I'll keep it short. Neverwinter Nights is a rather impressive implementation of [Dungeons and Dragons 3.5e](http://dnd3-5.wikidot.com/), made in 2001. I've always been fairly excited by D&D 3.5e. It is wonderfully "crunchy" in a way that 5th edition isn't. Character building is incredibly complicated (more on that later), and there's something deliciously rewarding about getting to see a series of build choices play out impactfully. Not that 5th edition doesn't have this, it just doesn't quite have as much "bite" behind it.
 
-NWN shipped with an original campaign spanning four meaty acts, though the campaign itself is not considered an excellent story, and is quite tedious in parts. The two major expansions, Shadows of Undretide and Hordes of the Underdark, are very highly regarded and you can play them without even having played the OC. But most importantly, and by miles, it shipped with an extensive [toolset](https://nwn.fandom.com/wiki/Toolset) that allowed the player community to make entire campaigns of their own -- ful-fledged stories with NPCs, quests, characters, environments to explore, dungeons, and included a full scripting language ([NWScript](https://nwn.fandom.com/wiki/NWScript)) for controlling the module.
+NWN shipped with an original campaign spanning four meaty acts, though the campaign itself is not considered an excellent story, and is quite tedious in parts. The two major expansions, Shadows of Undretide and Hordes of the Underdark, are very highly regarded and you can play them without even having played the OC. But most importantly, and by miles, it shipped with an extensive [toolset](https://nwn.fandom.com/wiki/Toolset) that allowed the player community to make entire campaigns of their own -- full-fledged stories with NPCs, quests, characters, environments to explore, dungeons, and included a full scripting language ([NWScript](https://nwn.fandom.com/wiki/NWScript)) for controlling the module.
 
 _[And boy, did the player community create!](https://neverwintervault.org/article/reference/campaigns-and-module-series-list-nwn1)_
 
@@ -52,7 +52,7 @@ That being said, Swordflight is also considered __difficult__. The [readme](http
 
 > 4) Recommended Difficulty Setting: This game was balanced for and mostly tested on the D&D Hardcore difficulty setting, though one can play on an easier setting if desired. It is intended to be quite challenging even on the D&D Hardcore setting, so playing at the higher difficulty setting is definitely not recommended.
 
-_(Note: I will **not** be playing on the "Hardcore" difficulty, but on Normal. You can feel free to leave insulting comments for me ;-)_ I've heard that future chapters are significantly harder than the first, as well (I got up to the middle of Chapter 2, last go-around)
+_I've heard that future chapters are significantly harder than the first, as well (I got up to the middle of Chapter 2, last go-around)_
 
 Despite all of my experience with NWN, I am a _terrible_ builder. But that's okay -- we've got tools and guidance out there to help us!
 
