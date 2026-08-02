@@ -6,8 +6,8 @@ tags: ["NWN", "swordflight", "character-creation", "crpg", "builds"]
 cover:
     relative: true
     image: "the-shifting-sands-inn.jpg"
-    alt: "Berin Hull, at a glance"
-    caption: "Berin Hull, freshly rolled and exported from PGCC"
+    alt: "Depicting a NWN screenshot in a tavern in Calimport"
+    caption: "Our adventure begins!"
 ---
 
 # Welcome
@@ -229,7 +229,7 @@ This isn't so unique of a backstory, but I wanted to understand his vibe: Berin 
 
 Before jumping right into Swordflight, I built out the character up to level 3 in the [Pretty Good Character Creator/Customizer](https://neverwintervault.org/project/nwn1/module/pretty-good-character-creator-customizer-pgc3-powered-igipe). This is a tremendously useful tool because NWN doesn't give you (unlike, for example, Solasta) a built-in tool to create and level up character "outside" of an adventure. In my case, I am choosing to begin Swordflight with Berin Hull at level three, with some prior adventuring experience, giving him 1 Rogue level and 2 Cleric levels out of the gate. I need to level him up, and then equip him a little. (I opted for a set of half plate armor, a morningstar, a tower shield, and some healing potions).
 
-{{< figure src="pgcc-berin.png" alt="Berin Hull in PGCC" caption="All geared up and ready to go!" >}}
+{{< figure src="pgcc-berin.jpg" alt="Berin Hull in PGCC" caption="All geared up and ready to go!" >}}
 
 Note that you can of course use tools like this to abuse a module. Swordflight lists starting from levels 1-3 as acceptable and supported in its [readme](https://neverwintervault.org/sites/neverwintervault.org/files/project/663/files/swordflight_chapter_one_readme_v4.txt):
 

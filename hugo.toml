@@ -1,6 +1,6 @@
 baseURL = 'https://pandincus.github.io/'
 locale = 'en-us'
-title = 'My Gaming Journal'
+title = 'Traversing Roles'
 theme = 'PaperMod'
 
 paginate = 10
@@ -19,15 +19,15 @@ enableEmoji = true
 
 [params]
   env = 'production'
-  title = 'My Gaming Journal'
-  description = 'Screenshots, feelings, and other nonsense from inside various video games.'
+  title = 'Traversing Roles'
+  description = 'Screenshots, feelings, and other nonsense from my journey through gaming, and through life.'
   keywords = ['blog', 'gaming', 'journal']
   author = 'Dan'
   DateFormat = 'January 2, 2006'
   defaultTheme = 'auto'
   disableThemeToggle = false
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -39,7 +39,7 @@ enableEmoji = true
 
   [params.homeInfoParams]
     Title = "Hey, I'm Dan \U0001F44B"
-    Content = "This is where I dump inner thoughts about the games I'm playing — screenshots, feelings, in-character rambling, whatever. Mostly gaming, occasionally other stuff."
+    Content = "Welcome to my little blog, '__Traversing Roles__'. In this blog, I'll dump some personal thoughts about life, and also ramble about my passion for games of all kinds - tabletop, computer, board, whatever. I'm writing this mostly for myself, but please feel free to drop in and view my screenshots, feelings, in-character thoughts, whatever! And feel free to leave a comment, too."
 
   [params.giscus]
     repo = 'pandincus/pandincus.github.io'
@@ -48,16 +48,12 @@ enableEmoji = true
     categoryId = 'DIC_kwDOTmhqM4DCMGw'
     mapping = 'pathname'
     strict = '0'
-    reactionsEnabled = '1'
+    reactionsEnabled = '0'
     emitMetadata = '0'
     inputPosition = 'top'
     lightTheme = 'light'
     darkTheme = 'dark'
     lang = 'en'
-
-[[params.socialIcons]]
-  name = 'github'
-  url = 'https://github.com/pandincus'
 
 [menu]
   [[menu.main]]

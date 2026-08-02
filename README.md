@@ -1,4 +1,4 @@
-# My Gaming Journal
+# Traversing Roles
 
 Live at: https://pandincus.github.io/
 
