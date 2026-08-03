@@ -25,6 +25,20 @@ Comments are handled by [giscus](https://giscus.app) (backed by GitHub Discussio
    {{< figure src="screenshot.png" alt="..." caption="..." >}}
    ```
 
+   To give the post a header image, add a `cover` block to the front matter —
+   and **always include `relative: true`**:
+   ```yaml
+   cover:
+       relative: true
+       image: "screenshot.jpg"
+       alt: "..."
+       caption: "..."
+   ```
+   Without it, the post still looks fine on the site, but the link-preview image
+   (`og:image`) points at the wrong URL and 404s — so sharing the post to Discord,
+   Bluesky, Slack, etc. shows a broken preview. It has to be set per post; there's
+   no site-wide default that works.
+
 4. Preview it for real (not just VS Code's generic Markdown preview) by running,
    in the integrated terminal:
    ```bash
